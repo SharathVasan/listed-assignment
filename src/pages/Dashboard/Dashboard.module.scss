@@ -1,0 +1,269 @@
+.maincontainer {
+  padding: 3vh 2vw;
+  width: 96vw;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3vw;
+}
+
+.leftsidebar {
+  width: 16vw;
+  height: 87vh;
+  background: var(--black-color);
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 3vh;
+  padding: 3vh 2vw 3vh 3vw;
+}
+
+.boardheading {
+  color: var(--white-color);
+  margin-top: 2vh;
+  font-size: 2.4vw;
+}
+
+.navlinksholder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-grow: 1.1;
+  margin-top: 3vh;
+  gap: 4vh;
+}
+
+.linkholder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1vw;
+}
+
+.linkholder:hover {
+  cursor: pointer;
+}
+
+.link {
+  width: 1.2vw;
+}
+
+.linktext {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+.contactusholder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2vh;
+  margin-bottom: 2vh;
+}
+
+.helptext {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 0.8vw;
+}
+
+.rightdashboard {
+  width: 100%;
+  height: 87vh;
+  padding: 1vh 0;
+}
+
+.topbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 1.4vw;
+  font-weight: 700;
+}
+
+.righticonsholder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2vw;
+}
+
+.searchbar {
+  padding: 1vh 1.2vw;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.searchtext {
+  border: none;
+  background: none;
+  font-size: 1vw;
+  color: #b0b0b0;
+}
+
+.searchtext::placeholder {
+  color: #b0b0b0;
+}
+
+.searchtext:focus {
+  outline: none;
+}
+
+.usericon {
+  border-radius: 50%;
+  border: none;
+  width: 2vw;
+}
+
+.cardsholder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2vw;
+  margin-top: 3vh;
+  width: 100%;
+}
+
+.individualcard {
+  width: 14vw;
+  padding: 1.4vw;
+  border-radius: 20px;
+}
+
+.iconholder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cardicon {
+  width: 1.4vw;
+}
+
+.cardtitle {
+  font-size: 1vw;
+  font-weight: 400;
+  font-family: var(--font-family-Lato);
+}
+
+.cardvalue {
+  margin-top: 1vh;
+  font-size: 1.6vw;
+}
+
+.maincardhead {
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+.selectoption {
+  border: none;
+  background: transparent;
+  font-weight: 400;
+  color: #858585;
+  font-family: var(--font-family-Mont);
+  padding: 0;
+  margin-top: 1vh;
+  font-size: 0.8vw;
+}
+
+.selectoptionright {
+  border: none;
+  background: transparent;
+  font-weight: 400;
+  color: #858585;
+  font-family: var(--font-family-Mont);
+  padding: 0;
+  font-size: 0.8vw;
+}
+
+.chartholder {
+  margin-top: 2vw;
+  background: var(--white-color);
+  padding: 1.4vw;
+  border-radius: 20px;
+}
+
+.bottomcardsholder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5vw;
+  margin-top: 2vw;
+}
+
+.piechartholder {
+  background: var(--white-color);
+  padding: 1.4vw;
+  border-radius: 10px;
+  width: 30vw;
+}
+
+.topcardbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scheduleholder {
+  border-radius: 10px;
+  background: var(--white-color);
+  padding: 1.4vw;
+  width: 30vw;
+}
+
+.seeall {
+  font-family: var(--font-family-Mont);
+  font-size: 0.8vw;
+  font-weight: 400;
+  color: #858585;
+}
+
+.schedulesholder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2vh;
+  margin-top: 2vh;
+}
+
+.individualscheduleholder {
+  padding-left: 1vw;
+  border-left: 5px solid;
+}
+
+.meetinghead {
+  font-size: 1vw;
+  color: #666666;
+  font-family: var(--font-family-Lato);
+  font-weight: 700;
+}
+
+.meetingtime {
+  font-size: 0.8vw;
+  color: #999999;
+  font-family: var(--font-family-Lato);
+  font-weight: 400;
+  margin-top: 0.3vh;
+}
+
+.meetingvenue {
+  font-size: 0.8vw;
+  color: #999999;
+  font-family: var(--font-family-Lato);
+  font-weight: 400;
+
+  margin-top: 0.3vh;
+}

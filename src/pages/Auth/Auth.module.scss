@@ -1,0 +1,149 @@
+.maincontainer {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.leftlogoholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 38vw;
+  background: var(--black-color);
+}
+
+.projname {
+  color: var(--white-color);
+  font-size: 4vw;
+}
+
+.rightauthholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62vw;
+  height: 100vh;
+}
+
+.authholder {
+  width: 30vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0;
+}
+
+.signinhead {
+  color: var(--black-color);
+  font-size: 3vw;
+}
+
+.signintotext {
+  font-weight: 400;
+  font-size: 1.4vw;
+  margin-top: 1vh;
+  font-family: var(--font-family-Lato);
+}
+
+.signinbuttonholders {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3vh;
+}
+
+.signinbuttonholder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.8vw;
+  padding: 0.5vw 1.2vw;
+  border-radius: 10px;
+  background: var(--white-color);
+}
+
+.signinbuttonholder:hover {
+  cursor: pointer;
+}
+
+.signinicon {
+  width: 1.4vw;
+}
+
+.signinwithtext {
+  font-size: 1vw;
+  color: var(--grey-text-color);
+  font-weight: 300;
+}
+
+.signinfieldholder {
+  background: var(--white-color);
+  padding: 2vw;
+  margin-top: 3vh;
+  width: 26vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.label {
+  font-size: 1.2vw;
+  font-weight: 400;
+  font-family: var(--font-family-Lato);
+}
+
+.field {
+  width: 24vw;
+  padding: 1vw;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.3vw;
+  font-family: var(--font-family-Lato);
+}
+
+.forgotpasswordlink {
+  color: var(--link-blue-color);
+  font-weight: 400;
+  font-family: var(--font-family-Lato);
+}
+
+.signinbutton {
+  width: 100%;
+  font-size: 1.3vw;
+  color: var(--white-color);
+  background: var(--black-color);
+  border-radius: 10px;
+  padding: 2vh 0;
+  border: none;
+  font-family: var(--font-family-Mont);
+}
+
+.noaccounttextholder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.noaccounttext {
+  align-items: center;
+  color: var(--grey-text-color);
+  font-weight: 400;
+  font-size: 1.2vw;
+  font-family: var(--font-family-Lato);
+}
+
+.registertext {
+  color: var(--link-blue-color);
+}
